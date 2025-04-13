@@ -99,3 +99,7 @@ impl Default for AmbientLight2d {
         }
     }
 }
+
+/// Disables a camera from having any lighting
+#[derive(Component, Clone, Reflect)]
+pub struct NoLighting;
